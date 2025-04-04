@@ -2,12 +2,12 @@
     <main>
         <div v-if="articles.length > 0" id="articles">
             <div class="post" v-for="el in articles" :key="el.id">
-                <button @click="deletePost(el.id)">Удалить</button>
+                <button @click="deletePost(el.id)">Remove</button>
                 <h2>{{ el.title }}</h2>
                 <p>{{ el.text }}</p>
             </div>
         </div>
-        <h1 class="empty" v-else>Статей на данный момент нет</h1>
+        <h1 class="empty" v-else>There are no articles at the moment</h1>
     </main>
     <aside>
         <AddPost v-on:add-post="createPost"/>
