@@ -72,10 +72,9 @@ export default defineConfig({
 Check out the live version here:
 👉 https://fxcker01.github.io/vue-blog-articles
 
-👤 Author
-fxcker01
-GitHub: https://github.com/fxcker01
+---
 
-📄 License
-This project is licensed under the terms of the MIT License.
-```
+## 📄 License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+Created by [fxcker01](https://github.com/fxcker01) 🖤
